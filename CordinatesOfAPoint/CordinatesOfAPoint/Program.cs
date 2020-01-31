@@ -17,11 +17,11 @@ namespace CordinatesOfAPoint
             {
                 if (x != 0)
                 {
-                    Console.WriteLine("Eixo Y");
+                    Console.WriteLine("Eixo X");
                 }
                 else if (y != 0)
                 {
-                    Console.WriteLine("Eixo X");
+                    Console.WriteLine("Eixo Y");
                 }
                 else
                 {
