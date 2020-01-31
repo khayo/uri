@@ -25,7 +25,7 @@ namespace AverageTree
             {
                 Console.WriteLine("Aluno aprovado.");
             }
-            else if (average >= 5.0 && average <= 6.9)
+            else if (average >= 5.0)
             {
                 Console.WriteLine("Aluno em exame.");
                 Console.Write("Nota do exame: ");
