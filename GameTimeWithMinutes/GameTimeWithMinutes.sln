@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTimeWithMinutes", "GameTimeWithMinutes\GameTimeWithMinutes.csproj", "{BB306240-479F-424B-B51A-84ADF762DB39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB306240-479F-424B-B51A-84ADF762DB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB306240-479F-424B-B51A-84ADF762DB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB306240-479F-424B-B51A-84ADF762DB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB306240-479F-424B-B51A-84ADF762DB39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C16B182-EFCB-4201-97A9-DFBF5576D8EE}
+	EndGlobalSection
+EndGlobal
