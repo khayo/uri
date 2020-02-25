@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageTree", "AverageTree\AverageTree.csproj", "{7EE12D88-CBC7-47B8-8297-6AD542BB2D0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageThree", "AverageThree\AverageThree.csproj", "{7EE12D88-CBC7-47B8-8297-6AD542BB2D0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
