@@ -8,11 +8,13 @@ namespace EventTime
     {
         static void Main(string[] args)
         {
-            Console.Write("Dia ");
             string startDay = Console.ReadLine();
+            var auxLength = (startDay.Length - 4);
+            startDay = startDay.Substring(4, auxLength);
             string startHour = Console.ReadLine();
-            Console.Write("Dia ");
             string endDay = Console.ReadLine();
+            auxLength = (endDay.Length - 4);
+            endDay = endDay.Substring(4, auxLength);
             string endHour = Console.ReadLine();
             DateTime start = DateTime.Parse(DateTime.Now.Year + "-04-" + startDay + " " + startHour, CultureInfo.InvariantCulture);
             DateTime end = DateTime.Parse(DateTime.Now.Year + "-04-" + endDay + " " + endHour, CultureInfo.InvariantCulture);
