@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfConsecutiveOddNumbersI", "SumOfConsecutiveOddNumbersI\SumOfConsecutiveOddNumbersI.csproj", "{765C2AED-400F-4383-8437-2F037BE856A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765C2AED-400F-4383-8437-2F037BE856A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765C2AED-400F-4383-8437-2F037BE856A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765C2AED-400F-4383-8437-2F037BE856A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765C2AED-400F-4383-8437-2F037BE856A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5B5980C-3849-4D11-B226-DF56B59DA985}
+	EndGlobalSection
+EndGlobal
