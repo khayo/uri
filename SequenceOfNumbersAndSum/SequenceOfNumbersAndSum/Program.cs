@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
+
+// 1101 - Sequence od Numbers And Sum
 
 namespace SequenceOfNumbersAndSum
 {
@@ -18,27 +21,29 @@ namespace SequenceOfNumbersAndSum
         {
             Initial = initial;
             Final = final;
-            this.ListNumbers();
+            List<int> numbers = new List<int>();
+            for (int i = initial; i <= final; i++)
+            {
+                numbers.Add(i);
+            }
+            Numbers = numbers;
         }
 
-        public void ListNumbers()
-        {
-            for (int i = Initial; i <= Final; i++)
-            {
-                List<int> numbers = new List<int>();
-                numbers.Add(i);
-                Numbers = numbers;
-            }            
-        }
 
         public override string ToString()
         {
             int sum = 0;
+            StringBuilder sb = new StringBuilder();
             foreach (var item in Numbers)
             {
+                
+                sb.Append(item + " ");
                 sum += item;
             }
-            return sum.ToString();
+
+            sb.Append("Sum=");
+            sb.Append(sum);
+            return sb.ToString();
         }
 
     }
@@ -75,16 +80,16 @@ namespace SequenceOfNumbersAndSum
                 }
 
                 // adiciona a sequencia a lista caso m ou n nao sejam 0
-                if (m != 0 && n != 0)
+                if (m > 0 && n > 0)
                 {
                     list.Add(seq);
                 }
                                              
-            } while (m != 0 && n != 0);
+            } while (m > 0 && n > 0 );
 
             foreach (var item in list)
-            {                
-                item.ToString();
+            {
+                Console.WriteLine(item);
             }
             
         }
