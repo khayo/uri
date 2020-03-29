@@ -21,18 +21,16 @@ namespace AverageThree
 
             if (average > 5)
             {
-                average = Math.Round(average, 1);
+               // average = Math.Round(average, 1);
             }
-
-
-
             Console.WriteLine("Media: " + average.ToString("F1", CultureInfo.InvariantCulture));
 
-            if (average >= 7.0)
+            if (average > 7.0)
             {
                 Console.WriteLine("Aluno aprovado.");
             }
-            else if (average >= 5.0)
+
+            if (average >= 5.0 && average < 7.0)
             {
                 Console.WriteLine("Aluno em exame.");
                 Console.Write("Nota do exame: ");
@@ -44,12 +42,12 @@ namespace AverageThree
                 }
                 else
                 {
-                    Console.WriteLine("Aluno reprovado.");
+                    Console.WriteLine("Aluno reprovado");
                 }
                 Console.WriteLine("Media final: " + average.ToString("F1", CultureInfo.InvariantCulture));
 
             }
-            else
+            if (average < 5.0)
             {
                 Console.WriteLine("Aluno reprovado.");
             }
