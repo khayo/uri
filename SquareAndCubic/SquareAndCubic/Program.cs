@@ -16,7 +16,11 @@ namespace SquareAndCubic
                 for (double j = 1; j <= 3; j++)
                 {
                     value = Math.Pow(i, j);
-                    Console.Write(value + " ");
+                    Console.Write(value);
+                    if (j != 3)
+                    {
+                        Console.Write(" ");
+                    }
                 }
                 Console.WriteLine();
             }
