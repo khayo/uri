@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrowingSequences", "GrowingSequences\GrowingSequences.csproj", "{041FE962-2448-460E-B30C-466B50507772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041FE962-2448-460E-B30C-466B50507772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041FE962-2448-460E-B30C-466B50507772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041FE962-2448-460E-B30C-466B50507772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041FE962-2448-460E-B30C-466B50507772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A25E6504-C3CE-4622-9439-14DD54FECC5D}
+	EndGlobalSection
+EndGlobal
